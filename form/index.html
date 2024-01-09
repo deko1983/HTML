@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esempio di Form HTML</title>
+</head>
+<body>
+
+<h2>Modulo di Esempio</h2>
+
+<form action="https://eozrpw6029ssmf2.m.pipedream.net" method="post">
+  <!-- Elementi di Input -->
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required>
+
+  <br/>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br/>
+  <!-- Elementi di Selezione -->
+  <label for="sesso">Sesso:</label>
+  <select id="sesso" name="sesso">
+    <option value="maschio">Maschio</option>
+    <option value="femmina">Femmina</option>
+    <option value="altro">Altro</option>
+  </select>
+  <br/>
+  <!-- Elementi di Check/Radio -->
+  <input type="checkbox" id="accetta" name="accetta" required>
+  <label for="accetta">Accetto i termini e le condizioni</label>
+  <br/>
+  <!-- Bottoni di Invio e Reset -->
+  <button type="submit">Invia</button>
+  <button type="reset">Resetta</button>
+</form>
+
+</body>
+</html>
+
+
